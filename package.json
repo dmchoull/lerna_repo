@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "lerna exec yarn test"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}

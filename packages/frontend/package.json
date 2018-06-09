@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.0.1",
+    "jest": "^23.1.0"
+  }
+}
